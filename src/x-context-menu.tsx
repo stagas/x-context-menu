@@ -17,7 +17,7 @@ export const ContextMenuOption = ({ action, disabled, keyboard, children }: {
   disabled?: boolean
   keyboard?: string[]
   children?: JSX.Element
-}) => (
+}): JSX.Element => (
   <a
     class={[ContextMenuOptionClassName, disabled && `${ContextMenuOptionClassName}-disabled`].filter(Boolean).join(' ')}
     onpointerdown={!disabled && action && $.event.stop.capture()}
