@@ -1,5 +1,5 @@
 <h1>
-x-context-menu <a href="https://npmjs.org/package/x-context-menu"><img src="https://img.shields.io/badge/npm-v1.0.0-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-91-FFF.svg?colorA=000"/></a> <a href="https://cdn.jsdelivr.net/npm/x-context-menu@1.0.0/dist/x-context-menu.min.js"><img src="https://img.shields.io/badge/brotli-23.5K-333.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
+x-context-menu <a href="https://npmjs.org/package/x-context-menu"><img src="https://img.shields.io/badge/npm-v1.0.1-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-91-FFF.svg?colorA=000"/></a> <a href="https://cdn.jsdelivr.net/npm/x-context-menu@1.0.1/dist/x-context-menu.min.js"><img src="https://img.shields.io/badge/brotli-27.2K-333.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
 </h1>
 
 <p></p>
