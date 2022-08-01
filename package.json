@@ -3,7 +3,7 @@
   "author": "stagas",
   "short": "stagas/x-context-menu",
   "description": "Context menu for x-popup.",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -78,8 +78,8 @@
   },
   "dependencies": {
     "relative-mouse": "^1.0.1",
-    "sigl": "^0.0.9",
-    "x-popup": "^0.0.2",
-    "x-surface": "^0.0.3"
+    "sigl": "^1.0.0",
+    "x-popup": "^1.0.0",
+    "x-surface": "^1.0.0"
   }
 }
