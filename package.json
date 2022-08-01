@@ -79,7 +79,7 @@
   "dependencies": {
     "relative-mouse": "^1.0.1",
     "sigl": "^0.0.9",
-    "x-popup": "^0.0.1",
-    "x-surface": "^0.0.2"
+    "x-popup": "^0.0.2",
+    "x-surface": "^0.0.3"
   }
 }
