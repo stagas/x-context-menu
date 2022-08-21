@@ -3,7 +3,7 @@ import $ from 'sigl'
 
 import { getRelativeMouseFromEvent } from 'relative-mouse'
 import { Point, Rect } from 'sigl'
-import { PopupElement, PopupSceneLocal } from 'x-popup'
+import { PopupElement, PopupScene } from 'x-popup'
 import { SurfaceElement, SurfaceItemElement } from 'x-surface'
 
 let currentMouseEvent: MouseEvent
@@ -37,7 +37,7 @@ export interface ContextMenuProps {
   anchorDestination?: HTMLElement
   popupDestination: HTMLElement
   surface: SurfaceElement
-  scene: PopupSceneLocal
+  scene: PopupScene
   sticky?: boolean
   Options: (props: { event: MouseEvent }) => JSX.Element
 }
