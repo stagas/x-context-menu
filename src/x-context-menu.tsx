@@ -87,7 +87,7 @@ export const onContextMenu = ({
     //!? 'context menu destination', popupDestination
 
     remove = (e?: PointerEvent) => {
-      if (e?.path.some((x: Element) => x.classList?.contains(ContextMenuOptionClassName))) {
+      if (e?.composedPath().some((x: EventTarget) => (x as Element).classList?.contains(ContextMenuOptionClassName))) {
         return
       }
       //!? 'remove context menu'
@@ -101,7 +101,7 @@ export const onContextMenu = ({
     $.on(window).pointerup.once(() => {
       offPointerDown?.()
       offPointerDown = $.on(window).pointerdown.capture(e => {
-        if (!sticky || e?.path.includes(popup.current!)) {
+        if (!sticky || e?.composedPath().includes(popup.current!)) {
           remove?.(e)
         }
       })
